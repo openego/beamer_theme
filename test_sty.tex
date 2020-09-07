@@ -1,0 +1,58 @@
+\documentclass[aspectratio=43]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+
+\usetheme{egon}
+
+\begin{document}
+
+\author{Name des Autors}
+\institute{Institutsname}
+\title{Titel der Präsentation}
+
+\maketitle
+
+\begin{frame}{Gliederung}
+\tableofcontents
+\end{frame}
+
+\section{Erstes Kapitel}
+\begin{frame}{Titel der Folie}
+
+      	\begin{itemize}
+      		\item erste Ebene
+      		\item erste Ebene
+      		\begin{itemize}
+      			\item zweite Ebene
+      			   \begin{itemize}
+      					\item dritte Ebene
+      				\end{itemize}
+      		\end{itemize}
+      		
+      	\end{itemize}
+\end{frame}
+
+\section{Zweites Kapitel}
+\begin{frame}{Die nächste Folie mit einem ganz langem Titel der zwei Zeilen benötigt}
+
+	\begin{block}{Titel eines Abschnitts}
+	Inhalt
+	\end{block}
+\end{frame}
+\subsection{Unterkapitel}
+
+
+\begin{frame}{Literaturverzeichnis}
+\begin{thebibliography}{11}
+
+\bibitem{NEP2019} Netzentwicklungsplan Strom 2030
+	\newblock \emph{Version 2019, zweiter Entwurf der Übertragungsnetzbetreiber}
+\bibitem{NEP2021} Szenariorahmen zum Netzentwicklungsplan Strom 2035
+	\newblock \emph{Version 2021, Entwurf der Übertragungsnetzbetreiber}
+
+\end{thebibliography}
+\end{frame}
+
+
+\end{document}
